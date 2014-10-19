@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F8DA55419F45AB700D8DCAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8DA55319F45AB700D8DCAE /* AppDelegate.swift */; };
+		4F8DA55619F45AB700D8DCAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8DA55519F45AB700D8DCAE /* ViewController.swift */; };
+		4F8DA55919F45AB700D8DCAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8DA55719F45AB700D8DCAE /* Main.storyboard */; };
+		4F8DA55B19F45AB700D8DCAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8DA55A19F45AB700D8DCAE /* Images.xcassets */; };
+		4F8DA55E19F45AB700D8DCAE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F8DA55C19F45AB700D8DCAE /* LaunchScreen.xib */; };
+		4F8DA56A19F45AB700D8DCAE /* PhotinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8DA56919F45AB700D8DCAE /* PhotinderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F8DA56419F45AB700D8DCAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F8DA54619F45AB700D8DCAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F8DA54D19F45AB700D8DCAE;
+			remoteInfo = Photinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F8DA54E19F45AB700D8DCAE /* Photinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8DA55219F45AB700D8DCAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F8DA55319F45AB700D8DCAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F8DA55519F45AB700D8DCAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F8DA55819F45AB700D8DCAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F8DA55A19F45AB700D8DCAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4F8DA55D19F45AB700D8DCAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4F8DA56319F45AB700D8DCAE /* PhotinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8DA56819F45AB700D8DCAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F8DA56919F45AB700D8DCAE /* PhotinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotinderTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F8DA54B19F45AB700D8DCAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8DA56019F45AB700D8DCAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F8DA54519F45AB700D8DCAE = {
+			isa = PBXGroup;
+			children = (
+				4F8DA55019F45AB700D8DCAE /* Photinder */,
+				4F8DA56619F45AB700D8DCAE /* PhotinderTests */,
+				4F8DA54F19F45AB700D8DCAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F8DA54F19F45AB700D8DCAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F8DA54E19F45AB700D8DCAE /* Photinder.app */,
+				4F8DA56319F45AB700D8DCAE /* PhotinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F8DA55019F45AB700D8DCAE /* Photinder */ = {
+			isa = PBXGroup;
+			children = (
+				4F8DA55319F45AB700D8DCAE /* AppDelegate.swift */,
+				4F8DA55519F45AB700D8DCAE /* ViewController.swift */,
+				4F8DA55719F45AB700D8DCAE /* Main.storyboard */,
+				4F8DA55A19F45AB700D8DCAE /* Images.xcassets */,
+				4F8DA55C19F45AB700D8DCAE /* LaunchScreen.xib */,
+				4F8DA55119F45AB700D8DCAE /* Supporting Files */,
+			);
+			path = Photinder;
+			sourceTree = "<group>";
+		};
+		4F8DA55119F45AB700D8DCAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F8DA55219F45AB700D8DCAE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F8DA56619F45AB700D8DCAE /* PhotinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F8DA56919F45AB700D8DCAE /* PhotinderTests.swift */,
+				4F8DA56719F45AB700D8DCAE /* Supporting Files */,
+			);
+			path = PhotinderTests;
+			sourceTree = "<group>";
+		};
+		4F8DA56719F45AB700D8DCAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F8DA56819F45AB700D8DCAE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F8DA54D19F45AB700D8DCAE /* Photinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8DA56D19F45AB700D8DCAE /* Build configuration list for PBXNativeTarget "Photinder" */;
+			buildPhases = (
+				4F8DA54A19F45AB700D8DCAE /* Sources */,
+				4F8DA54B19F45AB700D8DCAE /* Frameworks */,
+				4F8DA54C19F45AB700D8DCAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Photinder;
+			productName = Photinder;
+			productReference = 4F8DA54E19F45AB700D8DCAE /* Photinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F8DA56219F45AB700D8DCAE /* PhotinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8DA57019F45AB700D8DCAE /* Build configuration list for PBXNativeTarget "PhotinderTests" */;
+			buildPhases = (
+				4F8DA55F19F45AB700D8DCAE /* Sources */,
+				4F8DA56019F45AB700D8DCAE /* Frameworks */,
+				4F8DA56119F45AB700D8DCAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F8DA56519F45AB700D8DCAE /* PBXTargetDependency */,
+			);
+			name = PhotinderTests;
+			productName = PhotinderTests;
+			productReference = 4F8DA56319F45AB700D8DCAE /* PhotinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F8DA54619F45AB700D8DCAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Bhagchandani, Deepak";
+				TargetAttributes = {
+					4F8DA54D19F45AB700D8DCAE = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					4F8DA56219F45AB700D8DCAE = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 4F8DA54D19F45AB700D8DCAE;
+					};
+				};
+			};
+			buildConfigurationList = 4F8DA54919F45AB700D8DCAE /* Build configuration list for PBXProject "Photinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F8DA54519F45AB700D8DCAE;
+			productRefGroup = 4F8DA54F19F45AB700D8DCAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F8DA54D19F45AB700D8DCAE /* Photinder */,
+				4F8DA56219F45AB700D8DCAE /* PhotinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F8DA54C19F45AB700D8DCAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8DA55919F45AB700D8DCAE /* Main.storyboard in Resources */,
+				4F8DA55E19F45AB700D8DCAE /* LaunchScreen.xib in Resources */,
+				4F8DA55B19F45AB700D8DCAE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8DA56119F45AB700D8DCAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F8DA54A19F45AB700D8DCAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8DA55619F45AB700D8DCAE /* ViewController.swift in Sources */,
+				4F8DA55419F45AB700D8DCAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8DA55F19F45AB700D8DCAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8DA56A19F45AB700D8DCAE /* PhotinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F8DA56519F45AB700D8DCAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F8DA54D19F45AB700D8DCAE /* Photinder */;
+			targetProxy = 4F8DA56419F45AB700D8DCAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F8DA55719F45AB700D8DCAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F8DA55819F45AB700D8DCAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F8DA55C19F45AB700D8DCAE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F8DA55D19F45AB700D8DCAE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F8DA56B19F45AB700D8DCAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F8DA56C19F45AB700D8DCAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F8DA56E19F45AB700D8DCAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Photinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F8DA56F19F45AB700D8DCAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Photinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F8DA57119F45AB700D8DCAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photinder.app/Photinder";
+			};
+			name = Debug;
+		};
+		4F8DA57219F45AB700D8DCAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photinder.app/Photinder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F8DA54919F45AB700D8DCAE /* Build configuration list for PBXProject "Photinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8DA56B19F45AB700D8DCAE /* Debug */,
+				4F8DA56C19F45AB700D8DCAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8DA56D19F45AB700D8DCAE /* Build configuration list for PBXNativeTarget "Photinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8DA56E19F45AB700D8DCAE /* Debug */,
+				4F8DA56F19F45AB700D8DCAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F8DA57019F45AB700D8DCAE /* Build configuration list for PBXNativeTarget "PhotinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8DA57119F45AB700D8DCAE /* Debug */,
+				4F8DA57219F45AB700D8DCAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F8DA54619F45AB700D8DCAE /* Project object */;
+}
