@@ -14,7 +14,6 @@ class CardsViewController: UIViewController {
   
   @IBOutlet weak var actionImageView: UIImageView!
   
-  @IBOutlet weak var cardImageView: UIImageView!
   
   var center: CGPoint = CGPoint()
   var alpha: CGFloat!

@@ -24,16 +24,12 @@
                                 <rect key="frame" x="0.0" y="120" width="320" height="292"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="a2e-7l-OZe" appends="YES" id="brX-UU-MHM"/>
-                                </connections>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="actionImageView" destination="vhW-yY-Qe7" id="m4d-Vb-Abf"/>
-                        <outlet property="cardImageView" destination="gM9-zR-1ZK" id="Ivo-5O-vBX"/>
                         <outlet property="navImageView" destination="ddF-4I-kck" id="w1z-Ie-L7b"/>
                     </connections>
                 </viewController>
