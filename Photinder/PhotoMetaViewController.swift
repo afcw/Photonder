@@ -9,11 +9,16 @@
 import UIKit
 
 class PhotoMetaViewController: UIViewController {
+    @IBOutlet weak var photoImageView: UIImageView!
 
+    var pmImage: UIImage!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        NSLog("viewDidLoad: begin")
+        photoImageView.image = pmImage
+        NSLog("viewDidLoad: end")
     }
 
     override func didReceiveMemoryWarning() {
