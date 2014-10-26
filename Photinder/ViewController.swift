@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     var imageView: DraggableImageView!
   
+    
+    
   
     var center : CGPoint = CGPoint()
     var alpha : CGFloat!
@@ -21,7 +23,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
       imageView = DraggableImageView(frame: CGRect(x: 31, y: 70, width: 320, height: 300))
       view.addSubview(imageView)
-   
       
         self.center = self.imageView.center
         self.alpha = 1
@@ -34,7 +35,7 @@ class ViewController: UIViewController {
         //imageView.userInteractionEnabled = true
       imageView.addGestureRecognizer(recognizer)
       imageView.addGestureRecognizer(tapRecognizer)
-      
+   
     }
 
     override func didReceiveMemoryWarning() {
@@ -65,9 +66,26 @@ class ViewController: UIViewController {
   
   func tapImage(sender: UITapGestureRecognizer) {
     NSLog("tapped")
-    
+    //var vc = PhotoMetaViewController()
+    //navigationController?.pushViewController(vc, animated: true)
+    performSegueWithIdentifier("firstSegue", sender: self)
   }
 
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        NSLog("Segue called: \(segue.identifier)")
+      
+        if segue.identifier == "firstSegue" {
+          var destinationViewController = segue.destinationViewController as PhotoMetaViewController
+            NSLog("dest: \(destinationViewController)")
+            
+            NSLog("foo1")
+            var foo = self.imageView.imageView.image
+            
+            NSLog("foo2")
+            destinationViewController.pmImage = self.imageView.imageView.image
+         }
+    }
+    
   
   
     @IBAction func imagePan(sender: UIPanGestureRecognizer) {
