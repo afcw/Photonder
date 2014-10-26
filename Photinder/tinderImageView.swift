@@ -16,11 +16,11 @@ class tinderImageView: UIView {
         super.init(coder : aDecoder)
         
         
-        var nib = UINib(nibName: "tinderImageView", bundle: nil)
-        
-        nib?.instantiateWithOwner(self, options: nil)
-        self.addSubview(tinderImage)
-        
+//        var nib = UINib(nibName: "tinderImageView", bundle: nil)
+//        
+//        nib?.instantiateWithOwner(self, options: nil)
+//        self.addSubview(tinderImage)
+      
         
         
     }

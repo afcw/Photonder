@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
-        <!--Cards View Controller-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="CardsViewController" customModule="Photonder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Photonder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -29,16 +29,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="actionImageView" destination="vhW-yY-Qe7" id="m4d-Vb-Abf"/>
-                        <outlet property="navImageView" destination="ddF-4I-kck" id="w1z-Ie-L7b"/>
+                        <outlet property="imageView" destination="gM9-zR-1ZK" id="q4F-hb-jzL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="a2e-7l-OZe">
-                    <connections>
-                        <action selector="onImageDrag:" destination="BYZ-38-t0r" id="wd2-3b-jQk"/>
-                    </connections>
-                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="a2e-7l-OZe"/>
             </objects>
             <point key="canvasLocation" x="427" y="372"/>
         </scene>
