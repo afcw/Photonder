@@ -17,6 +17,7 @@
 		4F8DA57619F4683F00D8DCAE /* tinderImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8DA57519F4683F00D8DCAE /* tinderImageView.swift */; };
 		D5A365BB19FD7B1B0094A489 /* DraggableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5A365BA19FD7B1B0094A489 /* DraggableImageView.xib */; };
 		D5A365BD19FD7B880094A489 /* DraggableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A365BC19FD7B880094A489 /* DraggableImageView.swift */; };
+		D5A365BF19FD82220094A489 /* PhotoMetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A365BE19FD82220094A489 /* PhotoMetaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4F8DA57519F4683F00D8DCAE /* tinderImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tinderImageView.swift; sourceTree = "<group>"; };
 		D5A365BA19FD7B1B0094A489 /* DraggableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DraggableImageView.xib; sourceTree = "<group>"; };
 		D5A365BC19FD7B880094A489 /* DraggableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableImageView.swift; sourceTree = "<group>"; };
+		D5A365BE19FD82220094A489 /* PhotoMetaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoMetaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				4F8DA55119F45AB700D8DCAE /* Supporting Files */,
 				D5A365BA19FD7B1B0094A489 /* DraggableImageView.xib */,
 				D5A365BC19FD7B880094A489 /* DraggableImageView.swift */,
+				D5A365BE19FD82220094A489 /* PhotoMetaViewController.swift */,
 			);
 			path = Photinder;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				4F8DA57619F4683F00D8DCAE /* tinderImageView.swift in Sources */,
 				4F8DA55619F45AB700D8DCAE /* ViewController.swift in Sources */,
 				D5A365BD19FD7B880094A489 /* DraggableImageView.swift in Sources */,
+				D5A365BF19FD82220094A489 /* PhotoMetaViewController.swift in Sources */,
 				4F8DA55419F45AB700D8DCAE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

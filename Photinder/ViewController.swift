@@ -29,8 +29,11 @@ class ViewController: UIViewController {
       let recognizer = UIPanGestureRecognizer(target: self, action: Selector("rotateImage:"))
       // recognizer.delegate = self
       
+      let tapRecognizer = UITapGestureRecognizer(target: self, action: Selector("tapImage:"))
+      
         //imageView.userInteractionEnabled = true
       imageView.addGestureRecognizer(recognizer)
+      imageView.addGestureRecognizer(tapRecognizer)
       
     }
 
@@ -60,7 +63,10 @@ class ViewController: UIViewController {
     
   }
   
-  
+  func tapImage(sender: UITapGestureRecognizer) {
+    NSLog("tapped")
+    
+  }
 
   
   
